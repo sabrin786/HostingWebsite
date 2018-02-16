@@ -25,3 +25,12 @@ $('.quotes-carousel').owlCarousel({
     items:1,
     dots:true
 })
+
+$('.blog-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    items:3,
+    dots:true,
+    margin:20,
+})
+
