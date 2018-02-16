@@ -1,7 +1,14 @@
 .custom-navbar ul li a{
 	color: #fff;
-	font-size: 13px;
 	margin-left: 20px;
+}
+.custom-navbar .navbar-brand {
+	font-weight: bold;
+	color: #fff;
+}
+.custom-navbar .navbar-toggler {
+    color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
 }
 .home{
 	background-color: #0000ffbf;
@@ -10,9 +17,14 @@
 	padding-bottom: 150px;
 	background-repeat: no-repeat;
 }
+@media (min-width: 576px) {
+	.home-content .form-inline .form-control {
+		width: 700px;
+	}
+}
+
 .round-border{
 	border-radius: 50px;
-	padding-right: 600px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -44,6 +56,13 @@
 	font-size: 13px;
 	color: #858585;
 }
+
+@media (min-width: 768px) {
+	.home-2-content {
+		margin-bottom: 0px;
+	}
+}
+
 .home-2-content{
 	padding: 30px 25px 40px 25px;
 	border-radius: 5px;
@@ -53,6 +72,7 @@
 	margin-top: -50px;
 	background: #fff;
 	transition: all ease-in-out 0.4s;
+	margin-bottom: 80px;
 }
 .home-2-content:hover{
 	margin-top: -70px;
