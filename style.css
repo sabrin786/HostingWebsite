@@ -256,6 +256,23 @@
 	text-decoration: none;
 }
 
+.blog-carousel .card-img-top {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-carousel .img-container {
+	overflow: hidden;
+}
+
+.blog-carousel .card-img-top:hover {
+    transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 /*section-8*/
 
 .sec8{
