@@ -32,5 +32,13 @@ $('.blog-carousel').owlCarousel({
     items:3,
     dots:true,
     margin:20,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        }
+    }
 })
 
