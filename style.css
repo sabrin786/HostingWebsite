@@ -48,20 +48,21 @@
 	padding: 30px 25px 40px 25px;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 10px 53px -4px rgba(194,188,194,1);
--moz-box-shadow: 0px 10px 53px -4px rgba(194,188,194,1);
-box-shadow: 0px 10px 53px -4px rgba(194,188,194,1);
+	-moz-box-shadow: 0px 10px 53px -4px rgba(194,188,194,1);
+	box-shadow: 0px 10px 53px -4px rgba(194,188,194,1);
+	margin-top: -50px;
+	background: #fff;
+	transition: all ease-in-out 0.4s;
 }
 .home-2-content:hover{
-	background-color: #86828208;
-	color: gray;
-	    transition: all ease-in-out 0.4s;
-    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+	margin-top: -70px;
+	transition: all ease-in-out 0.4s;
 }
 
 /*section1*/
 
 .sec1 p{
-	    font-size: 13px;
+    font-size: 13px;
     font-family: "Roboto", sans-serif;
     margin: 0 0 15px;
     line-height: 2.1;
@@ -149,9 +150,34 @@ box-shadow: 0px 10px 53px -4px rgba(194,188,194,1);
 	background-image: url("image/top-bg.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	color: #fff;
 }
-.sec4-img{
+.sec4 p {
+	width: 100%;
+	max-width: 700px;
+}
+.sec4 .owl-item img{
 	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.sec4 .owl-dots {
+	text-align: center;
+}
+
+.sec4 button.owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #ffffff8c;
+    border-radius: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.sec4 .owl-dot.active {
+    background: #fff;
 }
 
 
@@ -235,6 +261,7 @@ box-shadow: 0px 10px 53px -4px rgba(194,188,194,1);
 .sec8{
 	background-color: blue;
 	border-radius: 5px;
+	margin-top: -150px;
 }
 .sec8 a{
 	color:#fff; 
