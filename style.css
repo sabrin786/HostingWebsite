@@ -1,11 +1,30 @@
 .custom-navbar ul li a{
 	color: #fff;
-	margin-left: 20px;
+	margin-left: 0;
 }
+
+@media (min-width: 992px) {
+	.custom-navbar ul li a {
+		margin-left: 20px;
+	}
+}
+
 .custom-navbar .navbar-brand {
 	font-weight: bold;
 	color: #fff;
+	font-size: 1.75rem;
 }
+
+.custom-navbar ul {
+	padding-top: 20px;
+}
+
+@media (min-width: 992px) {
+	.custom-navbar ul {
+		padding-top: 0;
+	}
+}
+
 .custom-navbar .navbar-toggler {
     color: rgba(255,255,255,1);
     border-color: rgba(255,255,255,1);
