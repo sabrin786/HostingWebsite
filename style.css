@@ -333,14 +333,22 @@
 }
 .sec9-icon{
 	list-style: none;
-	display: inline-flex;
+	display: block;
+	padding: 0;
+	text-align: center;
 }
 .sec9-icon li:hover{
 	color: blue;
 }
-.sec9-icon ul li{
-	padding: 30px;
+.sec9-icon li{
+	display: inline-block;
 }
+
+.sec9-icon li a {
+	padding: 20px;
+	display: inline-block;
+}
+
 .sec9 .subscribe_form .btn {
     min-height: 60px;
     border-radius: 5px;
