@@ -312,6 +312,10 @@
 
 /*section-9*/
 
+.sec9 {
+	background: #efefef;
+}
+
 .sec9-middle ul li{
 	padding-top: 15px;
 	list-style: none;
