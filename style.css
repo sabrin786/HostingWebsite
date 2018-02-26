@@ -235,6 +235,14 @@
 .sec5-content{
 	padding: 20px;
 	background-color: #fff;
+	-webkit-box-shadow: 0px 6px 9px -2px rgba(158,153,158,1);
+-moz-box-shadow: 0px 6px 9px -2px rgba(158,153,158,1);
+box-shadow: 0px 6px 9px -2px rgba(158,153,158,1);
+}
+.sec5-content:hover{
+	webkit-box-shadow: 0px 5px 21px -1px rgba(158,153,158,1);
+-moz-box-shadow: 0px 5px 21px -1px rgba(158,153,158,1);
+box-shadow: 0px 5px 21px -1px rgba(158,153,158,1);
 }
 .sec5-content p{
 	line-height: 40px;
@@ -345,9 +353,6 @@
 	list-style: none;
 	font-size: 14px;
 	position: relative;
-}
-.sec9-middle{
-	padding-left: 30px;
 }
 .sec9-middle ul{
 	padding: 0;
